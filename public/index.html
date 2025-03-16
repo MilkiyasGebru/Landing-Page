@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bookmark Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="font-Poppins">
+<!--    Header-->
+    <header>
+        <nav class="container flex py-4 mt-4 items-center justify-between ">
+            <div class="py-1">
+                <img src="./imgs/logo-bookmark.svg" alt="">
+            </div>
+            <ul class=" hidden sm:flex  text-bookmark-blue uppercase gap-12 text-xs items-center ">
+                <li class="cursor-pointer font-semibold">Features</li>
+                <li class="cursor-pointer font-semibold">Pricing</li>
+                <li class="cursor-pointer font-semibold">Contact</li>
+                <button type="button" class="font-semibold rounded-md px-7 py-3 uppercase text-white bg-bookmark-red">Login</button>
+            </ul>
+            <div class="flex sm:hidden">
+                <i class="fas fa-bars text-2xl"></i>
+            </div>
+        </nav>
+    </header>
+<!--Hero Section-->
+    <section class="">
+        <div class=" container flex flex-col-reverse lg:flex-row items-center gap-12 mt-12">
+<!--            Content-->
+            <div class="flex flex-1 flex-col lg:items-start ">
+                <h2 class="text-bookmark-blue text-3xl mb-6 text-center ">A Simple Bookmark Manager</h2>
+                <p class="text-bookmark-grey text-lg mb-6 text-center lg:text-left ">
+                    A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites
+                    load instantly. Try it for free.
+                </p>
+                <div class="flex  flex-wrap gap-6 justify-center">
+                    <button type="button" class="btn btn-purple hover:bg-bookmark-red">Get it On Chrome</button>
+                    <button type="button" class="btn btn-white">Get it On FireFox</button>
+                </div>
+            </div>
+<!--            Image-->
+            <div class="flex flex-1 justify-center z-10">
+                <img src="./imgs/hero-bg.png" alt="" class="w-2/3 h-2/3 lg:w-full lg:h-full">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
