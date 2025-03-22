@@ -26,7 +26,7 @@
     </header>
 <!--Hero Section-->
     <section class="relative">
-        <div class=" container flex flex-col-reverse md:flex-row items-center gap-12 mt-12">
+        <div class=" relative container flex flex-col-reverse md:flex-row items-center gap-12 mt-12 z-10">
 <!--            Content-->
             <div class="flex flex-1 flex-col lg:items-start ">
                 <h2 class="text-bookmark-blue text-3xl mb-6 text-center ">A Simple Bookmark Manager</h2>
@@ -40,7 +40,7 @@
                 </div>
             </div>
 <!--            Image-->
-            <div class="flex flex-1 justify-center z-10">
+            <div class="flex flex-1 justify-center ">
                 <img src="./imgs/hero-bg.png" alt="" class="w-2/3 h-2/3 lg:w-full lg:h-full">
             </div>
 
@@ -59,27 +59,31 @@
             </p>
         </div>
 <!--        Feature #1-->
-        <div class="relative container p-8 ">
-            <div class=" flex mt-6 gap-x-8 items-center">
+        <div class="relative">
+            <div class=" relative container z-10 ">
+                <div class=" flex mt-6 gap-x-8 items-center ">
 
-                <div class="w-1/2">
-                    <img src="./imgs/illustration-features-tab-1.png" alt="" class="">
-                </div>
-                <div class="flex gap-4 flex-col w-1/2">
-                    <h2 class="text-bookmark-blue font-semibold text-2xl">Intelligent Search</h2>
-                    <p class="text-left text-bookmark-grey">
-                        Organize your bookmarks however you like. Our simple drag-and-drop
-                        interfaces gives you complete control over how you manage your favourite sites.
-                    </p>
-                    <button class="py-2 px-3 bg-bookmark-purple w-fit rounded-md text-white">More Info</button>
-                </div>
+                    <div class="w-1/2">
+                        <img src="./imgs/illustration-features-tab-1.png" alt="" class="">
+                    </div>
+                    <div class="flex gap-4 flex-col w-1/2">
+                        <h2 class="text-bookmark-blue font-semibold text-2xl">Intelligent Search</h2>
+                        <p class="text-left text-bookmark-grey">
+                            Organize your bookmarks however you like. Our simple drag-and-drop
+                            interfaces gives you complete control over how you manage your favourite sites.
+                        </p>
+                        <button class="py-2 px-3 bg-bookmark-purple w-fit rounded-md text-white">More Info</button>
+                    </div>
 
+
+                </div>
 
             </div>
-            <div class="bg-bookmark-purple rounded-l-full w-full h-24">
+            <div class=" absolute bg-bookmark-purple rounded-r-full w-1/4 h-80 left-0 top-36 z-0">
 
             </div>
         </div>
+
     </section>
 </body>
 </html>
