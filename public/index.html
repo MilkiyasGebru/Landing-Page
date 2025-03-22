@@ -50,7 +50,7 @@
         <div class="hidden absolute md:block overflow-hidden bg-bookmark-purple rounded-l-full  right-0 top-32 md:h-40 md:w-1/4 lg:h-80 w-1/2"></div>
     </section>
 <!--Features Section-->
-    <section class="bg-bookmark-white mt-28 p-8">
+    <section class="bg-bookmark-white mt-28 p-8 mb-4 flex flex-col gap-12">
 <!--        Heading Div-->
         <div class="container">
             <h1 class="text-center text-3xl text-bookmark-blue font-semibold">Features</h1>
@@ -61,13 +61,13 @@
 <!--        Feature #1-->
         <div class="relative">
             <div class=" relative container z-10 ">
-                <div class=" flex mt-6 gap-x-8 items-center ">
+                <div class=" flex flex-col md:flex-row mt-6 gap-x-8 items-center  gap-y-4">
 
-                    <div class="w-1/2">
+                    <div class="w-4/5 md:w-1/2">
                         <img src="./imgs/illustration-features-tab-1.png" alt="" class="">
                     </div>
-                    <div class="flex gap-4 flex-col w-1/2">
-                        <h2 class="text-bookmark-blue font-semibold text-2xl">Intelligent Search</h2>
+                    <div class="flex gap-4 flex-col w-4/5 md:w-1/2">
+                        <h2 class="text-bookmark-blue font-semibold text-2xl text-center md:text-left">Intelligent Search</h2>
                         <p class="text-left text-bookmark-grey">
                             Organize your bookmarks however you like. Our simple drag-and-drop
                             interfaces gives you complete control over how you manage your favourite sites.
@@ -79,11 +79,41 @@
                 </div>
 
             </div>
-            <div class=" absolute bg-bookmark-purple rounded-r-full w-1/4 h-80 left-0 top-36 z-0">
+            <div class="hidden absolute  md:block bg-bookmark-purple rounded-r-full w-1/4 h-80 left-0 top-16 z-0">
 
             </div>
+
+        </div>
+<!--        Feature #2-->
+        <div class="relative mt-8">
+            <div class=" relative container z-10 ">
+                <div class=" flex flex-col md:flex-row-reverse mt-6 gap-x-8 items-center  gap-y-4">
+
+                    <div class="w-4/5 md:w-1/2">
+                        <img src="./imgs/illustration-features-tab-2.png" alt="" class="">
+                    </div>
+                    <div class="flex gap-4 flex-col w-4/5 md:w-1/2">
+                        <h2 class="text-bookmark-blue font-semibold text-2xl text-center md:text-left">Bookmark in One Click</h2>
+                        <p class="text-left text-bookmark-grey">
+                            Our popular search feature will help you find saved sites in no time at all.
+                            No need to keep track of your bookmarks.
+                        </p>
+                        <button class="py-2 px-3 bg-bookmark-purple w-fit rounded-md text-white">More Info</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="hidden absolute  md:block bg-bookmark-purple rounded-l-full w-1/4 h-80 right-0 top-32 z-0">
+
+            </div>
+
         </div>
 
+    </section>
+    <section>
+        <p>Hello There</p>
     </section>
 </body>
 </html>
